@@ -6,14 +6,14 @@ export default function Header () {
       <View style={styles.header}>
         <TouchableOpacity>
           <Image
-          source={require('../img/logo.png')}
+          source={require('../Img/logo.png')}
           style={styles.logo}
           />
         </TouchableOpacity>
 
         <TouchableOpacity>
           <Image
-          source={require('../img/send.png')}
+          source={require('../Img/send.png')}
           style={styles.send}
           />
         </TouchableOpacity>
